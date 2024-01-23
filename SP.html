@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de Bootsrap</title>
+    <!--Estilos propios-->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <!--Navbar-->
+  <nav class="navbar bg-body-tertiary mb-4">
+    <div class="container-fluid">
+        <img src="img/logo2.jpg" alt="Logo de Nebul" width="100" height="100" class="d-inline-block align-text-top"><h1>Nebula Charm</h1>
+    </div>
+  </nav>
+  <!--Carousel-->
+  <div id="carouselNebula" class="carousel slide mb-4" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active text-center" data-bs-interval="10000">
+        <img src="img/10.png" width="50%" height="50%" alt="Nebula">
+      </div>
+      <div class="carousel-item text-center">
+        <img src="img/11.png" width="50%" height="50%" alt="Nebula">
+      </div>
+      <div class="carousel-item text-center">
+        <img src="img/12.png" width="50%" height="50%" alt="Nebula">
+      </div>
+      <div class="carousel-item text-center">
+        <img src="img/13.png" width="50%" height="50%" alt="Nebula">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselNebula" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselNebula" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--Accordion-->
+  <div class="accordion" id="AN">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+          Misión
+        </button>
+      </h2>
+      <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#AN">
+        <div class="accordion-body">
+            <p>Nosotros somos Nebula_Charm, un emprendimiento que vende todos los productos referentes a la marca SHEGLAM. Nuestro objetivo es poder crecer como emprendimiento, pero lo más importante, transformar la rutina de belleza de cada uno 
+              de nuestros clientes en un viaje intergaláctico.</p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+          Visión
+        </button>
+      </h2>
+      <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#AN">
+        <div class="accordion-body">
+          <p>Aún no lo sabemos jeje...
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+          Valores
+        </button>
+      </h2>
+      <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#AN">
+        <div class="accordion-body">
+          <p>Estamos compremetido con la honestidad, el respeto, la puntualidad y la disciplina.  </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>

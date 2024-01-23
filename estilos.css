@@ -1,0 +1,54 @@
+
+*{
+    font-family: 'Times New Roman', Times, serif
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    width: 100px;
+    max-width: 100px;
+    border-radius: 50%;
+}
+.titulo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo h1{
+    font-weight: bold;
+    font-size: 3rem;
+    color: white
+
+}
+body{
+    background-color: #d25f7c;
+    color: white;
+    margin: 1rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+p{
+    color: #fa86c4;
+}
+.Comentario{
+    resize: none;
+}
+.button{
+    color: black;
+    background-color: white;
+    font-size: 2rem;
+}
+h1{
+    color:#fa86c4
+}
+.accordion-button{
+    color: white;
+    background-color: #fa86c4;;
+}
